@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(String SERVICE, String ENVIRONMENT){
+def call(def SERVICE, def ENVIRONMENT){
 sh '''#!/bin/bash 
     mkdir -p /var/lib/jenkins/gdn_nonprod_chef_repo/data_bags/${SERVICE}
     echo "************************************"
