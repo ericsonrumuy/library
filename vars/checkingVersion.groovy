@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(String SERVICE, String ENVIRONMENT){
+def call(){
     mkdir -p /var/lib/jenkins/gdn_nonprod_chef_repo/data_bags/gdn_app_zurich
     echo "************************************"
     echo "Downloading existing Data bag"
