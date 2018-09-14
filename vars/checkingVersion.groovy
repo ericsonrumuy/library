@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 def call(){
-    mkdir -p /var/lib/jenkins/gdn_nonprod_chef_repo/data_bags/gdn_app_zurich
+    mkdir -p /var/lib/jenkins/gdn_nonprod_chef_repo/data_bags/b
     echo "************************************"
     echo "Downloading existing Data bag"
     echo "************************************"
