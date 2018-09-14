@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(String nama){ 
+def call(){ 
     echo "************************************"
     echo "Downloading existing Data bag, ${nama}"
     echo "************************************"
